@@ -16,10 +16,18 @@
 			</style>
 			<title>HTML Tutorial</title>
 		</head>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("demo");
+				x.style.fontSize = "25px";
+				x.style.color = "red";
+			}
+			</script>
 		<body>
 
 			<h1>This is a heading</h1>
 			<p>This is a paragraph.</p>
 
+			<button onclick="myFunction()">Click Me!</button>
 		</body>
 </html> 
